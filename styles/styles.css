@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.Lmv {
+    color: rgb(0, 0, 0);
+    size: 25px;
+    padding: 1px 0px 1px 172px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.Hdos {
+    color: white;
+    padding: 1px 0px 1px 172px;
+    size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li {
+    display: inline;
+    padding: 30px 5px;
+
+}
+
+#Menu:hover {
+    color: blue
+}
+
+#MenuProduc:hover {
+    color: blueviolet;
+}
+
+
+ul {
+    position: relative;
+    display: flex;
+    left: 0px;
+    bottom: 30px;
+}
+
+a {
+
+    color: beige;
+    text-transform: uppercased;
+    font-size: 20px;
+    text-shadow: 2px 2px 0 black;
+    padding: 6px;
+
+}
+
+header {
+    background-color: coral;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(to top, #f1d7bb, coral);
+    width: 100%;
+    height: 220vh;
+
+}
+
+.banner1 {
+    background-image: url(../asset/banner.png);
+    position: relative;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido {
+    display: flex;
+}
+
+i {
+    font-size: 20px;
+}
+
+.Productos {
+    text-decoration: none;
+    color: beige;
+    text-transform: uppercased;
+    font-size: 20px;
+    text-shadow: 2px 2px 0 black;
+    padding: 0px 0px 9px 155px;
+    background-color: coral;
+}
+.Productos:hover{
+    transform: scale(1.05);
+}
+
+.ProductosTv:hover{
+    transform: scale(1.05)
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+    width: 320px;
+    height: 300px;
+
+}
+
+.container .card h4 {
+    font-weight: 600;
+}
+
+.container .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.ProductosTv {
+    text-decoration: none;
+    color: beige;
+    text-transform: uppercased;
+    font-size: 20px;
+    display: flex;
+    text-shadow: 2px 2px 0 black;
+    background-color: coral;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Smart-TV {
+    background-color: coral;
+    padding: 0px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SmartPhones {
+    background-color: coral;
+    padding: 0px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NotebooksTitle {
+    background-color: coral;
+    padding: 0px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AiresTITLE {
+    background-color: coral;
+    padding: 0px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Celulares {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline underline;
+    padding: 20px 0px 5px 175px;
+}
+
+#AiresAcond {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline underline;
+    padding: 20px 0px 5px 175px;
+}
+
+#Notebooks {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline underline;
+    padding: 20px 0px 5px 175px;
+}
+
+
+@media (min-width: 0px) and (max-width:950px) {
+    header {
+        padding: 5px;
+    }
+
+    .Hdos {
+        font-size: 15px;
+        padding: 1px;
+    }
+
+    h1 {
+        font-size: 15px;
+        padding: 1px;
+    }
+
+    .Lmv {
+        font-size: 15px;
+        padding: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Productos {
+        padding: 0px 0px 5px 10px;
+    }
+
+    a,
+    li {
+        font-size: 12px;
+    }
+
+    body,
+    header,
+    footer {
+        width: auto;
+    }
+
+    body {
+        margin: 0%
+    }
+
+    .Smart-TV {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .ofertas-Tv {
+        padding: 5px 0px 5px 20px;
+
+    }
+
+    .ProductosTv {
+        display: flex;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #Celulares {
+        padding: 10px 0px 10px 5px;
+    }
+
+    #Notebooks {
+        padding: 10px 0px 10px 5px;
+    }
+
+    #AiresAcond {
+        padding: 10px 0px 10px 5px;
+    }
+
+}
